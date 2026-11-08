@@ -10,5 +10,11 @@ public class SringsB{
         //Set char at index 0
         sb.setCharAt(0, 'P');
         System.out.println(sb);
+
+        sb.delete(0, 1);
+        System.out.println(sb);
+
+        sb.append("Stark");
+        System.out.println(sb);
     }
 }
